@@ -10,7 +10,6 @@
 #import "NBPhoneMetaDataGenerator.h"
 @import libPhoneNumberiOS;
 
-
 @interface AppDelegate ()
 @end
 
@@ -32,7 +31,7 @@
     [self testWithRealData];
     //[self testWithGCD];
     //[self testForGetSupportedRegions];
-
+    
     return YES;
 }
 

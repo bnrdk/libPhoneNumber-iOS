@@ -944,8 +944,6 @@ static NSArray *GEO_MOBILE_COUNTRIES;
             [normalizedNumber appendString:[NSString stringWithFormat: @"%C", character]];
         }
         // If neither of the above are NO, we remove this character.
-        
-        //NSLog(@"[%@]", normalizedNumber);
     }
     
     return normalizedNumber;
@@ -1214,7 +1212,6 @@ static NSArray *GEO_MOBILE_COUNTRIES;
     
     NSString *formattedExtension = [self maybeGetFormattedExtension:number metadata:metadata numberFormat:numberFormat];
     
-    //NSLog(@"!@#  prefixNumberWithCountryCallingCode called [%@]", formattedExtension);
     return [self prefixNumberWithCountryCallingCode:countryCallingCode phoneNumberFormat:numberFormat
                             formattedNationalNumber:formattedNumber formattedExtension:formattedExtension];
 }
